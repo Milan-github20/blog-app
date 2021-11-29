@@ -1,9 +1,9 @@
 import React from "react";
-import "./hero.modules.css";
+import styles from "./hero.module.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className={styles.hero}>
       <h2>Hello from Hero</h2>
     </div>
   );

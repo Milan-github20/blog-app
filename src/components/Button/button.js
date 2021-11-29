@@ -1,9 +1,9 @@
 import React from "react";
-import "./button.modules.css";
+import styles from "./button.module.css";
 
 const Button = () => {
   return (
-    <div className="button">
+    <div className={styles.button}>
       <h2>Hello from Button</h2>
     </div>
   );
