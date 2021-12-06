@@ -1,12 +1,21 @@
 import React from "react";
-import styles from "./button.module.css";
+import Button from "@mui/material/Button";
+import "./button.module.css";
 
-const Button = () => {
+const ButtonComponent = () => {
   return (
-    <div className={styles.button}>
-      <h2>Hello from Button</h2>
-    </div>
+    <Button
+      variant="contained"
+      href="#main"
+      style={{
+        backgroundColor: "#1674a0",
+        padding: "10px 35px",
+        fontSize: "16px",
+      }}
+    >
+      Discover
+    </Button>
   );
 };
 
-export default Button;
+export default ButtonComponent;
