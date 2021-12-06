@@ -1,0 +1,11 @@
+.card1 {
+  padding: 20px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.slika {
+  display: flex;
+}

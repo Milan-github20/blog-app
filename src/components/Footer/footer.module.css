@@ -1,0 +1,46 @@
+.itemLinks a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.itemGridRightSide a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.itemGridLeftSide h5,
+p {
+  font-size: 18px;
+  margin-left: 33px;
+}
+
+.itemGridLeftSide h5 {
+  margin-bottom: 0px;
+}
+
+.itemGridLeftSide {
+  padding: 25px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.newsletter input {
+  padding: 5px 15px;
+  margin-right: 20px;
+  flex: 1;
+  max-width: 382px;
+}
+
+.grid {
+  padding: 48px;
+}
