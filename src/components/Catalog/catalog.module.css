@@ -1,0 +1,32 @@
+.catalog p {
+  font-size: 2.5rem;
+  color: #666666;
+}
+
+.categories p {
+  color: #3399cc;
+  font-size: 1.75rem;
+}
+
+.categories {
+  display: flex;
+}
+.categoriesUl li {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+.categoriesUl li a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.75rem;
+  color: #3399cc;
+}
+
+.catalog div ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
