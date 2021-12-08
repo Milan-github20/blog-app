@@ -13,7 +13,7 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./navbar.module.css";
+import styles from "./navbar.module.css";
 
 const Navbar = () => {
   const links = [
@@ -35,12 +35,12 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navbar">
+    <nav className={styles.navbar}>
       <ul>
         {links.map((link) => {
           return (
-            <li key={link.id} className="underline">
-              <NavLink to={link.path} activeClassName="active-link" exact>
+            <li key={link.id} className={styles.underline}>
+              <NavLink to={link.path} activeClassName={styles.activeLink} exact>
                 {link.text}
               </NavLink>
             </li>
