@@ -1,3 +1,9 @@
-.posts {
-  display: flex;
+.main {
+  padding: 50px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }

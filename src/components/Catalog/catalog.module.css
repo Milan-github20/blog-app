@@ -23,10 +23,16 @@
   text-decoration: none;
   font-size: 1.75rem;
   color: #3399cc;
+  justify-content: space-between;
 }
 
 .catalog div ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
 }
